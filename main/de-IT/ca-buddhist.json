@@ -1,13 +1,13 @@
 {
   "main": {
-    "de-AT": {
+    "de-IT": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12873 $",
+          "_number": "$Revision: 12858 $",
           "_cldrVersion": "30"
         },
         "language": "de",
-        "territory": "AT"
+        "territory": "IT"
       },
       "dates": {
         "calendars": {
@@ -272,8 +272,8 @@
                 },
                 "narrow": {
                   "midnight": "Mitternacht",
-                  "am": "vm.",
-                  "pm": "nm.",
+                  "am": "vorm.",
+                  "pm": "nachm.",
                   "morning1": "Morgen",
                   "morning2": "Vormittag",
                   "afternoon1": "Mittag",

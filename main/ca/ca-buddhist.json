@@ -3,8 +3,8 @@
     "ca": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12293 $",
-          "_cldrVersion": "29"
+          "_number": "$Revision: 12879 $",
+          "_cldrVersion": "30"
         },
         "language": "ca"
       },
@@ -14,18 +14,18 @@
             "months": {
               "format": {
                 "abbreviated": {
-                  "1": "gen.",
-                  "2": "febr.",
-                  "3": "març",
-                  "4": "abr.",
-                  "5": "maig",
-                  "6": "juny",
-                  "7": "jul.",
-                  "8": "ag.",
-                  "9": "set.",
-                  "10": "oct.",
-                  "11": "nov.",
-                  "12": "des."
+                  "1": "de gen.",
+                  "2": "de febr.",
+                  "3": "de març",
+                  "4": "d’abr.",
+                  "5": "de maig",
+                  "6": "de juny",
+                  "7": "de jul.",
+                  "8": "d’ag.",
+                  "9": "de set.",
+                  "10": "d’oct.",
+                  "11": "de nov.",
+                  "12": "de des."
                 },
                 "narrow": {
                   "1": "GN",
