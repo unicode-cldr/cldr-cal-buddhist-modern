@@ -3,8 +3,8 @@
     "zh-Hans-SG": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13133 $",
-          "_cldrVersion": "31.0.1"
+          "_number": "$Revision: 13706 $",
+          "_cldrVersion": "32"
         },
         "language": "zh",
         "script": "Hans",
@@ -229,7 +229,7 @@
                   "midnight": "午夜",
                   "am": "上午",
                   "pm": "下午",
-                  "morning1": "清晨",
+                  "morning1": "早上",
                   "morning2": "上午",
                   "afternoon1": "中午",
                   "afternoon2": "下午",
@@ -240,7 +240,7 @@
                   "midnight": "午夜",
                   "am": "上午",
                   "pm": "下午",
-                  "morning1": "清晨",
+                  "morning1": "早上",
                   "morning2": "上午",
                   "afternoon1": "中午",
                   "afternoon2": "下午",
@@ -264,7 +264,7 @@
                   "midnight": "午夜",
                   "am": "上午",
                   "pm": "下午",
-                  "morning1": "清晨",
+                  "morning1": "早上",
                   "morning2": "上午",
                   "afternoon1": "中午",
                   "afternoon2": "下午",
@@ -324,12 +324,17 @@
               "medium": "{1} {0}",
               "short": "{1} {0}",
               "availableFormats": {
+                "Bh": "Bh时",
+                "Bhm": "Bh:mm",
+                "Bhms": "Bh:mm:ss",
                 "d": "d日",
                 "E": "ccc",
+                "EBhm": "EB h:mm",
+                "EBhms": "EB h:mm:ss",
                 "Ed": "d日E",
-                "Ehm": "E h:mm a",
+                "Ehm": "Ea h:mm",
                 "EHm": "E HH:mm",
-                "Ehms": "E h:mm:ss a",
+                "Ehms": "Ea h:mm:ss",
                 "EHms": "E HH:mm:ss",
                 "Gy": "Gy年",
                 "GyMMM": "Gy年MM月",
@@ -377,7 +382,7 @@
                 "Year": "{1} {0}"
               },
               "intervalFormats": {
-                "intervalFormatFallback": "{0}至{1}",
+                "intervalFormatFallback": "{0} – {1}",
                 "d": {
                   "d": "d至d日"
                 },
@@ -403,26 +408,26 @@
                   "m": "vah:mm至h:mm"
                 },
                 "Hmv": {
-                  "H": "vHH:mm–HH:mm",
-                  "m": "vHH:mm–HH:mm"
+                  "H": "v HH:mm – HH:mm",
+                  "m": "v HH:mm – HH:mm"
                 },
                 "hv": {
                   "a": "vah时至ah时",
                   "h": "vah时至h时"
                 },
                 "Hv": {
-                  "H": "vHH–HH"
+                  "H": "HH–HH v"
                 },
                 "M": {
                   "M": "M–M月"
                 },
                 "Md": {
-                  "d": "M-d至M-d",
-                  "M": "M-d至M-d"
+                  "d": "M/d – M/d",
+                  "M": "M/d – M/d"
                 },
                 "MEd": {
-                  "d": "M-dE至M-dE",
-                  "M": "M-dE至M-dE"
+                  "d": "M/dE至M/dE",
+                  "M": "M/dE至M/dE"
                 },
                 "MMM": {
                   "M": "MMM – MMM"
@@ -432,25 +437,25 @@
                   "M": "M月d日至M月d日"
                 },
                 "MMMEd": {
-                  "d": "M月d日E至M月d日E",
+                  "d": "M月d日E至d日E",
                   "M": "M月d日E至M月d日E"
                 },
                 "y": {
                   "y": "Gy–y年"
                 },
                 "yM": {
-                  "M": "y年M月至y年M月",
+                  "M": "Gy年M月至M月",
                   "y": "Gy年M月至y年M月"
                 },
                 "yMd": {
-                  "d": "d/M/y至d/M/y",
-                  "M": "d/M/y至d/M/y",
-                  "y": "d/M/y至d/M/y"
+                  "d": "Gy/M/d – y/M/d",
+                  "M": "Gy/M/d – y/M/d",
+                  "y": "Gy/M/d – y/M/d"
                 },
                 "yMEd": {
-                  "d": "d/M/yE至d/M/yE",
-                  "M": "d/M/yE至d/M/yE",
-                  "y": "d/M/yE至d/M/yE"
+                  "d": "Gy/M/dE至y/M/dE",
+                  "M": "Gy/M/dE至y/M/dE",
+                  "y": "Gy/M/dE至y/M/dE"
                 },
                 "yMMM": {
                   "M": "Gy年M月至M月",

@@ -3,8 +3,8 @@
     "pa": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13186 $",
-          "_cldrVersion": "31.0.1"
+          "_number": "$Revision: 13722 $",
+          "_cldrVersion": "32"
         },
         "language": "pa"
       },
@@ -283,13 +283,13 @@
             },
             "eras": {
               "eraNames": {
-                "0": "BE"
+                "0": "ਈਸਵੀ ਪੂਰਵ"
               },
               "eraAbbr": {
-                "0": "BE"
+                "0": "ਈਸਵੀ ਪੂਰਵ"
               },
               "eraNarrow": {
-                "0": "BE"
+                "0": "ਈ. ਪੂ."
               }
             },
             "dateFormats": {
@@ -305,13 +305,18 @@
               "short": "h:mm a"
             },
             "dateTimeFormats": {
-              "full": "{1} {0}",
-              "long": "{1} {0}",
+              "full": "{0} ਵਿਖੇ {1}",
+              "long": "{0} ਵਿਖੇ {1}",
               "medium": "{1}, {0}",
               "short": "{1}, {0}",
               "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E, d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
